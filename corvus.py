@@ -8,6 +8,4 @@ db = SQLAlchemy(app)
 
 @app.route('/')
 def corvus():
-    user = User('test user', 'test@test.dkfgh')
-    print user
     return 'corvus marinus'
