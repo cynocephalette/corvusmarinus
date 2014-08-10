@@ -74,7 +74,7 @@ section {
     overflow: auto;
 }
 
-#cormorant, #mayor, #visitors, #businesses, #library {
+#cormorant, #mayor, #visitors, #businesses, #library, #bridge {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -108,6 +108,11 @@ section {
 
 #library {
     background-image: url('../images/library.jpg');
+}
+
+#bridge {
+    background-image: url('../images/bridge.jpg');
+    height: 270px;
 }
 
 
@@ -224,3 +229,10 @@ em {
     cursor: pointer;
 }
 
+#scroll {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 20em;
+}
