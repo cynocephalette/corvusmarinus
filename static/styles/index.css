@@ -1,0 +1,68 @@
+.banner {
+    background-image: url('../images/northbeach.jpg');
+    height: 50em;
+}
+.banner-container {
+    height: 44.5em;
+}
+
+#cormorant, #mayor, #visitors, #businesses, #library, #bridge {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 55em;
+}
+
+#cormorant {
+    background-image: url('../images/cormorant.jpg');
+}
+#cormorant .section-container {
+    margin-top: 15em;
+}
+
+#mayor {
+    background-image: url('../images/mayorlee.jpg');
+}
+
+#visitors {
+    background-image: url('../images/sutro.jpg');
+}
+
+#businesses {
+    background-image: url('../images/goddesses.jpg');
+}
+#businesses .col-2 {
+    margin-top: -2em;
+    margin-left: 5%;
+}
+
+#library {
+    background-image: url('../images/library.jpg');
+}
+
+#bridge {
+    background-image: url('../images/bridge.jpg');
+    height: 270px;
+}
+
+#footer ul {
+    padding-top: 1em;
+}
+
+#footer li {
+    list-style: none;
+}
+
+#footer li span, .link {
+    cursor: pointer;
+}
+
+#scroll {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 20em;
+}

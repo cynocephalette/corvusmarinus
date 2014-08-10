@@ -1,0 +1,8 @@
+/* ----- Banner ----- */
+.banner {
+    background-image: url('../images/cliffhouse.jpg');
+    height: 25em;
+}
+.banner-container {
+    height: 19.5em;
+}
