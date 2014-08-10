@@ -1,0 +1,219 @@
+/* ----- Reset ----- */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* ----- Type ----- */
+@font-face {
+    font-family: 'filosofiabold';
+    src: url('../type/filobold-webfont.eot');
+    src: url('../type/filobold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/filobold-webfont.woff') format('woff'),
+         url('../type/filobold-webfont.ttf') format('truetype'),
+         url('../type/filobold-webfont.svg#filosofiaboldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'filosofiaitalic';
+    src: url('../type/filoital-webfont.eot');
+    src: url('../type/filoital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/filoital-webfont.woff') format('woff'),
+         url('../type/filoital-webfont.ttf') format('truetype'),
+         url('../type/filoital-webfont.svg#filosofiaitalicitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'din';
+    src: url('../type/dinl____-webfont.eot');
+    src: url('../type/dinl____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/dinl____-webfont.woff') format('woff'),
+         url('../type/dinl____-webfont.ttf') format('truetype'),
+         url('../type/dinl____-webfont.svg#din-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ----- Banner ----- */
+.banner-container {
+    position: relative;
+    bottom: -5.5em;
+    height: 49.5em;
+}
+.banner {
+    background-image: url('../images/northbeach.jpg');
+    background-position: center;
+    position: relative;
+    top: -5.5em;
+    height: 55em;
+}
+
+
+/* ----- Header ----- */
+
+header {
+    background: #333;
+    color: #eee;
+    padding: .75em 0;
+    opacity: 0.9;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: filosofiabold, garamond, georgia, serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    text-align: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding-top: .2em;
+}
+
+header p {
+    text-align: center;
+    height: 0;
+}
+
+.header-decoration {
+    letter-spacing: .02em;
+    font-size: 1.25em;
+    font-family: filosofiaitalic, garamond, georgia, serif;
+    position: relative;
+    top: -0.5em;
+    background: #333;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 .75em;
+}
+
+@font-face {
+    font-family: 'filosofiagrand';
+    src: url('../type/filogran-webfont.eot');
+    src: url('../type/filogran-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/filogran-webfont.woff') format('woff'),
+         url('../type/filogran-webfont.ttf') format('truetype'),
+         url('../type/filogran-webfont.svg#filosofiagrandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ----- Sections ----- */
+section {
+    background-image: url('../images/textures/ecailles.png');
+    overflow: auto;
+    padding-bottom: 4em;
+}
+
+.section-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+}
+
+section p {
+    margin: 2em;
+    font-family: din, helvetica, sans-serif;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seal {
+    padding-top: 6em;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 2em;
+    font-family: filosofiagrand, garamond, georgia, serif;
+    text-align: center;
+    width: 70%;
+    padding-bottom: .4em;
+    border-bottom: 1px solid #333;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-1 {
+    width: 80%;
+    text-align: center;
+    padding: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-2 {
+    width: 35%;
+    float: left;
+    text-align: center;
+    padding-top: 2em;
+}
+.shaded {
+    background: rgba(255, 255, 255, .4);
+}
+.col-2:first-child {
+    margin-left: 10%;
+}
+.col-2:last-child {
+    float: right;
+    margin-right: 10%;
+}
+
+#cormorant {
+    background-image: url('../images/cormorant.jpg');
+    background-position: center;
+    height: 50em;
+}
+#cormorant .section-container {
+    margin-top: 15em;
+}
+
+#mayor {
+    background-image: url('../images/mayorlee.jpg');
+    background-position: center;
+    height: 40em;
+}
+
+.navigation {
+    text-align: center;
+    font-family: filosofiagrand, garamond, georgia, serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    background: rgba(51, 51, 51, .4);
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: .5em 0;
+    color: #eee;
+}
+.navigation li+li::before {
+    content: '/';
+}
+.navigation a {
+    margin: 1em;
+    text-decoration: none;
+    color: #eee;
+}
+
+small {
+    font-style: normal;
+    font-family: filosofiaitalic, garamond, georgia, serif;
+    font-size: .5em;
+    display: block;
+}
+
