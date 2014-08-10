@@ -3,9 +3,17 @@
 
 <head>
     <title>Corvus Marinus Public Library</title>
+    <link type="text/css" rel="stylesheet" href="static/slick/slick.css">
     <link type="text/css" rel="stylesheet" href="static/styles/type.css">
     <link type="text/css" rel="stylesheet" href="static/styles/format.css">
     <link type="text/css" rel="stylesheet" href="static/styles/library.css">
+
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="static/slick/slick.min.js"></script>
+    <script src="static/scripts/external/jquery-scrolltofixed-min.js"></script>
+
+    <script src="static/scripts/display.js"></script>
+    <script src="static/scripts/library.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,7 +38,15 @@
     <section>
         <div class="section-container">
             <h3>Catalogue</h3>
-            <p>{{ books[0].name }}</p>
+            <div class="carousel-container">
+            <div id="carousel">
+                {% for book in books %}
+                <div class="book">
+                    <img src="static/images/covers/{{ book.isbn }}.jpg" alt="{{ book.title }}">
+                </div>
+                {% endfor %}
+            </div>
+            </div>
         </div>
     </section>
 

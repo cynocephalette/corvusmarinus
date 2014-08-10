@@ -6,3 +6,36 @@
 .banner-container {
     height: 19.5em;
 }
+
+
+/* ----- Carousel ----- */
+.carousel-container {
+    width: 54em;
+    background: white;
+    padding: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#carousel {
+    width: 50em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.book img {
+    display: block;
+    padding-top: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.slick-center img {
+    padding-top: 0;
+    width: 220px;
+    height: auto;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
