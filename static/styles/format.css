@@ -60,19 +60,6 @@ header p {
     padding: 0 .75em;
 }
 
-@font-face {
-    font-family: 'filosofiagrand';
-    src: url('../type/filogran-webfont.eot');
-    src: url('../type/filogran-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../type/filogran-webfont.woff') format('woff'),
-         url('../type/filogran-webfont.ttf') format('truetype'),
-         url('../type/filogran-webfont.svg#filosofiagrandregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/* ----- Sections ----- */
 section {
     background-image: url('../images/textures/ecailles.png');
     overflow: auto;
@@ -93,12 +80,11 @@ section {
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    height: 40em;
+    height: 55em;
 }
 
 #cormorant {
     background-image: url('../images/cormorant.jpg');
-    height: 50em;
 }
 #cormorant .section-container {
     margin-top: 15em;
@@ -114,6 +100,10 @@ section {
 
 #businesses {
     background-image: url('../images/goddesses.jpg');
+}
+#businesses .col-2 {
+    margin-top: -2em;
+    margin-left: 5%;
 }
 
 #library {
@@ -230,7 +220,7 @@ em {
     list-style: none;
 }
 
-#footer li span {
+#footer li span, .link {
     cursor: pointer;
 }
 

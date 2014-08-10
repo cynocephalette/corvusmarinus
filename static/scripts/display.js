@@ -1,6 +1,5 @@
 $(document).ready(function () {
     var headers = $('header, .subheader');
-    console.log(headers);
     headers.each(function (index) {
         var header = $(headers[index]);
         var next = headers[index + 1];
