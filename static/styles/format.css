@@ -5,40 +5,6 @@
     border: 0;
 }
 
-/* ----- Type ----- */
-@font-face {
-    font-family: 'filosofiabold';
-    src: url('../type/filobold-webfont.eot');
-    src: url('../type/filobold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../type/filobold-webfont.woff') format('woff'),
-         url('../type/filobold-webfont.ttf') format('truetype'),
-         url('../type/filobold-webfont.svg#filosofiaboldbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'filosofiaitalic';
-    src: url('../type/filoital-webfont.eot');
-    src: url('../type/filoital-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../type/filoital-webfont.woff') format('woff'),
-         url('../type/filoital-webfont.ttf') format('truetype'),
-         url('../type/filoital-webfont.svg#filosofiaitalicitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'din';
-    src: url('../type/dinl____-webfont.eot');
-    src: url('../type/dinl____-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../type/dinl____-webfont.woff') format('woff'),
-         url('../type/dinl____-webfont.ttf') format('truetype'),
-         url('../type/dinl____-webfont.svg#din-lightregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* ----- Banner ----- */
 .banner-container {
     position: relative;
@@ -47,15 +13,17 @@
 }
 .banner {
     background-image: url('../images/northbeach.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-position: center;
     position: relative;
     top: -5.5em;
     height: 50em;
 }
 
-
 /* ----- Header ----- */
-
 header {
     background: #333;
     color: #eee;
@@ -118,6 +86,40 @@ section {
     padding-top: 4em;
     overflow: auto;
 }
+
+#cormorant, #mayor, #visitors, #businesses, #library {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+}
+
+#cormorant {
+    background-image: url('../images/cormorant.jpg');
+    height: 50em;
+}
+#cormorant .section-container {
+    margin-top: 15em;
+}
+
+#mayor {
+    background-image: url('../images/mayorlee.jpg');
+}
+
+#visitors {
+    background-image: url('../images/sutro.jpg');
+}
+
+#businesses {
+    background-image: url('../images/goddesses.jpg');
+}
+
+#library {
+    background-image: url('../images/library.jpg');
+}
+
 
 section p {
     margin: 2em;
@@ -182,39 +184,6 @@ h3 {
     width: 20%;
     margin: 6%;
     float: left;
-}
-
-#cormorant {
-    background-image: url('../images/cormorant.jpg');
-    background-position: center;
-    height: 50em;
-}
-#cormorant .section-container {
-    margin-top: 15em;
-}
-
-#mayor {
-    background-image: url('../images/mayorlee.jpg');
-    background-position: center;
-    height: 40em;
-}
-
-#visitors {
-    background-image: url('../images/sutro.jpg');
-    background-position: center;
-    height: 40em;
-}
-
-#businesses {
-    background-image: url('../images/goddesses.jpg');
-    background-position: center;
-    height: 40em;
-}
-
-#library {
-    background-image: url('../images/library.jpg');
-    background-position: center;
-    height: 40em;
 }
 
 .navigation {

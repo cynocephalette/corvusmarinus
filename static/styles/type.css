@@ -1,0 +1,46 @@
+/* ----- Type ----- */
+@font-face {
+    font-family: 'filosofiabold';
+    src: url('../type/filobold-webfont.eot');
+    src: url('../type/filobold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/filobold-webfont.woff') format('woff'),
+         url('../type/filobold-webfont.ttf') format('truetype'),
+         url('../type/filobold-webfont.svg#filosofiaboldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'filosofiaitalic';
+    src: url('../type/filoital-webfont.eot');
+    src: url('../type/filoital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/filoital-webfont.woff') format('woff'),
+         url('../type/filoital-webfont.ttf') format('truetype'),
+         url('../type/filoital-webfont.svg#filosofiaitalicitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'din';
+    src: url('../type/dinl____-webfont.eot');
+    src: url('../type/dinl____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/dinl____-webfont.woff') format('woff'),
+         url('../type/dinl____-webfont.ttf') format('truetype'),
+         url('../type/dinl____-webfont.svg#din-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'filosofiagrand';
+    src: url('../type/filogran-webfont.eot');
+    src: url('../type/filogran-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/filogran-webfont.woff') format('woff'),
+         url('../type/filogran-webfont.ttf') format('truetype'),
+         url('../type/filogran-webfont.svg#filosofiagrandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ----- Sections ----- */
