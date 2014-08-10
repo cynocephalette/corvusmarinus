@@ -116,6 +116,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     padding-top: 4em;
+    overflow: auto;
 }
 
 section p {
