@@ -39,3 +39,22 @@
 .slick-prev:before, .slick-next:before {
     color: black;
 }
+
+
+#map {
+    background-image: url('../images/map.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left;
+    height: 20em;
+}
+
+#map .col-1 {
+    margin-top: -2em;
+}
+
+.col-1.narrow {
+    width: 40%;
+}
