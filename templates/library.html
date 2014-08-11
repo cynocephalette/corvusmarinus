@@ -39,14 +39,36 @@
         <div class="section-container">
             <h3>Catalogue</h3>
             <div class="carousel-container">
-            <div id="carousel">
+                <div id="carousel">
+                    {% for book in books %}
+                    <div class="book" id="{{ book.isbn }}">
+                        <img src="static/images/covers/{{ book.isbn }}.jpg" alt="{{ book.title }}">
+                    </div>
+                    {% endfor %}
+                </div>
+
                 {% for book in books %}
-                <div class="book">
-                    <img src="static/images/covers/{{ book.isbn }}.jpg" alt="{{ book.title }}">
+                <div class="info" id="info_{{ book.isbn }}">
+                    <dl>
+                        <dt>Title</dt>
+                        <dd>{{ book.title }}</dd>
+
+                        <dt>Author</dt>
+                        <dd>{{ book.author_details | removeBar }}</dd>
+
+                        <dt>Publisher</dt>
+                        <dd>{{ book.publisher }}</dd>
+
+                        <dt>Genre</dt>
+                        <dd>{{ book.genre }}</dd>
+
+                        <dt>Description</dt>
+                        <dd>{{ book.description }}</dd>
+                    </dl>
                 </div>
                 {% endfor %}
             </div>
-            </div>
+                
         </div>
     </section>
 

@@ -16,6 +16,11 @@ def corvus():
 def library():
     return render_template('library.html', books=books)
 
+def removeBar(string):
+    return string.replace('|', '; ')
+
+
 if __name__ == '__main__':
+    app.jinja_env.filters['removeBar'] = removeBar
     app.debug = True
     app.run(port=5000)

@@ -7,10 +7,33 @@
     height: 19.5em;
 }
 
+.info {
+    display: none;
+}
+
+dl {
+    font-family: din, helvetica, ariel, sans-serif;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+dt {
+    font-family: filosofiabold, garamond, georgia, serif;
+    text-transform: uppercase;
+    float: left;
+    width: 10em;
+    clear: left;
+}
+
+dd {
+    margin-bottom: 1em;
+}
 
 /* ----- Carousel ----- */
 .carousel-container {
     width: 54em;
+    height: 50em;
     background: white;
     padding: 2em;
     margin-right: auto;
