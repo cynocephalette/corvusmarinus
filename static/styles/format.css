@@ -171,3 +171,17 @@ em {
     font-style: normal;
     font-family: filosofiaitalic, garamond, georgia, serif;
 }
+
+
+
+#footer ul {
+    padding-top: 1em;
+}
+
+#footer li {
+    list-style: none;
+}
+
+#footer li span, .link {
+    cursor: pointer;
+}

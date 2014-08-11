@@ -19,7 +19,6 @@ def library():
 def removeBar(string):
     return string.replace('|', '; ')
 
-
 if __name__ == '__main__':
     app.jinja_env.filters['removeBar'] = removeBar
     app.debug = True
