@@ -14,15 +14,12 @@ def corvus():
 
 @app.route('/library')
 def library():
-    print 'trying to load library'
-    print books
-    print 'thems some books'
     return render_template('library.html', books=books)
 
 def removeBar(string):
     return string.replace('|', '; ')
+app.jinja_env.filters['removeBar'] = removeBar
 
 if __name__ == '__main__':
-    app.jinja_env.filters['removeBar'] = removeBar
     app.debug = True
     app.run(port=5000)
