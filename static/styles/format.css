@@ -73,6 +73,9 @@ section {
 
 section p {
     margin: 2em;
+}
+
+section p, section ul {
     font-family: din, helvetica, sans-serif;
 }
 
