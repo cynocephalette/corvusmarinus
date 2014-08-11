@@ -15,6 +15,8 @@ def corvus():
 @app.route('/library')
 def library():
     print 'trying to load library'
+    print books
+    print 'thems some books'
     return render_template('library.html', books=books)
 
 def removeBar(string):
