@@ -17,7 +17,6 @@ def library():
     return render_template('library.html', books=books)
 
 @app.route('/wiki')
-@app.route('/', subdomain="wiki")
 def wiki():
     return make_response(open('templates/wiki.html').read())
 
