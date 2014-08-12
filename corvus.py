@@ -16,6 +16,10 @@ def corvus():
 def library():
     return render_template('library.html', books=books)
 
+@app.route('/wiki')
+def wiki():
+    return make_response(open('templates/wiki.html').read())
+
 def removeBar(string):
     return string.replace('|', '; ')
 app.jinja_env.filters['removeBar'] = removeBar
