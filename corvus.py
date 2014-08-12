@@ -16,9 +16,14 @@ def corvus():
 def library():
     return render_template('library.html', books=books)
 
-@app.route('/wiki')
+@app.route('/wiki/')
+@app.route('/wiki/Corvus_Marinus')
 def wiki():
     return make_response(open('templates/wiki.html').read())
+
+@app.route('/wiki/Corvus_Marinus_Museum_of_Modern_Art')
+def wikiMoma():
+    return make_response(open('templates/wiki-moma.html').read())
 
 def removeBar(string):
     return string.replace('|', '; ')
