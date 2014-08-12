@@ -185,6 +185,8 @@ em {
     list-style: none;
 }
 
-#footer li span, .link {
+#footer li span, .link, a {
     cursor: pointer;
+    text-decoration: none;
+    color: #333;
 }
