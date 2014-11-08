@@ -2,7 +2,7 @@ $(document).ready(function () {
     var infos = $('.info');
 
     var setActive  = function () {
-        var activeBook = $('.slick-center').attr('id') || '9780877282181';
+        var activeBook = $('.slick-center').attr('id') || '9780571169344';
         infos.each(function (index) {
             var info = $(infos[index]);
             if (info.attr('id') === 'info_'+activeBook) {
